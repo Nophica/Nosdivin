@@ -1,0 +1,18 @@
+
+### `plugin.yml`
+
+플러그인 메타데이터를 정의한 `plugin.yml` 파일:
+
+```yaml
+name: LidecisCos
+version: 1.0
+main: com.example.LidecisCos
+api-version: 1.19
+commands:
+  lcos:
+    description: Main command for LidecisCos plugin
+    usage: /<command> [subcommand]
+permissions:
+  lcos.use:
+    description: Allows use of LidecisCos commands
+    default: op
